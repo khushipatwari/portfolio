@@ -1,0 +1,56 @@
+.aboutus
+{
+    color:  #FAFAFA;
+    padding: 30px;
+}
+header
+{
+    padding-bottom: 20px;
+}
+.heading
+{
+    color:  #FAFAFA;
+    font-size: 32px;
+}
+.aboutus-text p
+{
+    color: #d6d6d6bd;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+.underline
+{
+    width: 100px;
+    height: 3px;
+    background-color: #FFBB5C;
+}
+.service-cards
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-card
+{
+    height: 140px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    background-color: #2B2B2C;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 7px;
+}
+.service-icon-box
+{
+    padding-right: 20px;
+}
+.service-item-title
+{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.service-item-text
+{
+    color: #d6d6d6bd;
+}

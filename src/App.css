@@ -1,0 +1,27 @@
+.website
+{
+  background-color: #121212;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 20px;
+}
+@media screen  and (max-width:900px){
+
+  .website
+  {
+    padding: 30px;
+    flex-wrap: wrap;
+    height: fit-content;
+  }
+  .main-section
+  {
+    height:fit-content ;
+  }
+  .sidebar
+  {
+    min-width: 100%;
+  }
+}
