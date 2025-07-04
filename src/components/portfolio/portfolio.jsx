@@ -13,13 +13,13 @@ const Portfolio = () => {
                 <div className='portfolio-image'>
                     <img src="./images/portfolio-image1.png" alt="" />
                     <div className='button-container'>
-                        <button className='button-link'>Code</button>
-                        <button className='button-link'>Website</button>
+                        <button className='button-link'><a href="https://github.com/khushipatwari/gemini-clone">Code</a></button>
+                        <button className='button-link'><a href= "https://gemini-clonewebsite-1.netlify.app/"> Website</a></button>
                     </div>
                     <div className='overlay'></div>
                 </div>
             </div>
-            <div className='portfolio-card'>
+{/*             <div className='portfolio-card'>
                 <div className="portfolio-image">
                     <img src="./images/portfolio-image1.png" alt="" />
                     <div className='button-container'>
@@ -27,8 +27,8 @@ const Portfolio = () => {
                     <button className='button-link'>Website</button>
                     </div>
                 </div>
-            </div>
-            <div className='portfolio-card'>
+            </div> */}
+{/*             <div className='portfolio-card'>
                 <div className="portfolio-image">
                     <img src="./images/portfolio-image1.png" alt="" />
                     <div className='button-container'>
@@ -36,34 +36,34 @@ const Portfolio = () => {
                     <button className='button-link'>Website</button>
                     </div>
                 </div>
-            </div>
-            <div className='portfolio-card'>
-                <div className="portfolio-image">
-                    <img src="./images/portfolio-image1.png" alt="" />
-                    <div className='button-container'>
-                    <button className='button-link'>Code</button>
-                    <button className='button-link'>Website</button>
-                    </div>
-                </div>
-            </div>
-            <div className='portfolio-card'>
-                <div className="portfolio-image">
-                    <img src="./images/portfolio-image1.png" alt="" />
-                    <div className='button-container'>
-                    <button className='button-link'>Code</button>
-                    <button className='button-link'>Website</button>
-                    </div>
-                </div>
-            </div>
-            <div className='portfolio-card'>
-                <div className="portfolio-image">
-                    <img src="./images/portfolio-image1.png" alt="" />
-                    <div className='button-container'>
-                    <button className='button-link'>Code</button>
-                    <button className='button-link'>Website</button>
-                    </div>
-                </div>
-            </div>
+            </div> */}
+            // <div className='portfolio-card'>
+            //     <div className="portfolio-image">
+            //         <img src="./images/portfolio-image1.png" alt="" />
+            //         <div className='button-container'>
+            //         <button className='button-link'>Code</button>
+            //         <button className='button-link'>Website</button>
+            //         </div>
+            //     </div>
+            // </div>
+            // <div className='portfolio-card'>
+            //     <div className="portfolio-image">
+            //         <img src="./images/portfolio-image1.png" alt="" />
+            //         <div className='button-container'>
+            //         <button className='button-link'>Code</button>
+            //         <button className='button-link'>Website</button>
+            //         </div>
+            //     </div>
+            // </div>
+            // <div className='portfolio-card'>
+            //     <div className="portfolio-image">
+            //         <img src="./images/portfolio-image1.png" alt="" />
+            //         <div className='button-container'>
+            //         <button className='button-link'>Code</button>
+            //         <button className='button-link'>Website</button>
+            //         </div>
+            //     </div>
+            // </div>
         </div>
     </div>
   )
